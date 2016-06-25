@@ -5,12 +5,11 @@
  */
 package executavel;
 
-import pi.log.lerArquivo;
+import pi.log.LerArquivo;
 
 /**
  *
- * @author Edu Rodrigues; Higor Rocha; Mateus Matias; Nildismeire Faria Classe
- Executavel
+ * @author Edu Rodrigues; Higor Rocha; Mateus Matias; Nildismeire Faria Classe Excutavel
  */
 public class Principal {
 
@@ -20,7 +19,7 @@ public class Principal {
     public static void main(String[] args) {
 
         //Lendo o arquivo de log
-        lerArquivo arquivo = new lerArquivo();
+        LerArquivo arquivo = new LerArquivo();
         arquivo.carregarArquivo("C:\\Users\\DUDU\\Desktop\\logs\\access-logs.txt");
     }
 }

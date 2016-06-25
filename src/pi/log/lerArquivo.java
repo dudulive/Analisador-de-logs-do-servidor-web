@@ -15,7 +15,7 @@ import pi.dadosEstatistico.DadosEstatistico;
  * classe faz a leitura do arquivo de logs e armazena os tipos de dados em um
  * Arrylist do tipo Formatologs
  */
-public class lerArquivo {
+public class LerArquivo {
 
     //Este metodo recebe o caminho do arquivo de logs
     public void carregarArquivo(String path) {
